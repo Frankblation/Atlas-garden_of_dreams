@@ -5,7 +5,7 @@
 
 .contact-page {
   background: #ffffff;
-  height: 2262px;
+  height: 141.375rem;
   position: relative;
   overflow: hidden;
 }
@@ -14,35 +14,35 @@
   background: linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
   border-style: solid;
   border-color: #000000;
-  border-width: 2px 0px 0px 0px;
+  border-width: 0.125rem 0rem 0rem 0rem;
   display: flex;
   flex-direction: column;
-  gap: 80px;
+  gap: 5rem;
   align-items: center;
   justify-content: center;
-  width: 1440px;
-  height: 900px;
+  width: 90rem;
+  height: 56.25rem;
   position: absolute;
-  left: 0px;
-  top: 72px;
+  left: 0rem;
+  top: 4.5rem;
   overflow: hidden;
 }
 
 .column {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 1.5rem;
   align-items: center;
   justify-content: flex-start;
   flex-shrink: 0;
-  width: 768px;
+  width: 48rem;
   position: relative;
 }
 
 .content {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 1.5rem;
   align-items: center;
   justify-content: flex-start;
   align-self: stretch;
@@ -54,7 +54,7 @@
   color: var(--white, #ffffff);
   text-align: center;
   font-family: "MabryPro-Bold", sans-serif;
-  font-size: 56px;
+  font-size: 3.5rem;
   line-height: 120%;
   font-weight: 700;
   position: relative;
@@ -65,7 +65,7 @@
   color: var(--white, #ffffff);
   text-align: center;
   font-family: "MabryPro-Regular", sans-serif;
-  font-size: 18px;
+  font-size: 1.125rem;
   line-height: 150%;
   font-weight: 400;
   position: relative;
@@ -73,10 +73,10 @@
 }
 
 .actions {
-  padding: 16px 0px 0px 0px;
+  padding: 1rem 0rem 0rem 0rem;
   display: flex;
   flex-direction: row;
-  gap: 16px;
+  gap: 1rem;
   align-items: flex-start;
   justify-content: flex-start;
   flex-shrink: 0;
@@ -86,24 +86,24 @@
 .button {
   border-style: solid;
   border-color: var(--white, #ffffff);
-  border-width: 1px;
-  padding: 12px 24px 12px 24px;
+  border-width: 0.0625rem;
+  padding: 0.75rem 1.5rem 0.75rem 1.5rem;
   display: flex;
   flex-direction: row;
-  gap: 8px;
+  gap: 0.5rem;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
   position: relative;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.75);
-  backdrop-filter: blur(10px);
+  box-shadow: 0rem 0.25rem 0.25rem 0rem rgba(0, 0, 0, 0.75);
+  backdrop-filter: blur(0.625rem);
 }
 
 .button2 {
   color: var(--white, #ffffff);
   text-align: left;
   font-family: "MabryPro-Regular", sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 150%;
   font-weight: 400;
   position: relative;
@@ -113,28 +113,28 @@
   background: #ffc900;
   border-style: solid;
   border-color: #000000;
-  border-width: 4px 0px 0px 0px;
-  padding: 112px 64px 112px 64px;
+  border-width: 0.25rem 0rem 0rem 0rem;
+  padding: 7rem 4rem 7rem 4rem;
   display: flex;
   flex-direction: column;
-  gap: 80px;
+  gap: 5rem;
   align-items: flex-start;
   justify-content: flex-start;
-  width: 1440px;
+  width: 90rem;
   position: absolute;
-  left: 0px;
-  top: 972px;
+  left: 0rem;
+  top: 60.75rem;
   overflow: hidden;
 }
 
 .section-title {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 1rem;
   align-items: flex-start;
   justify-content: flex-start;
   flex-shrink: 0;
-  width: 768px;
+  width: 48rem;
   position: relative;
 }
 
@@ -146,7 +146,7 @@
     "Roboto-SemiBold",
     sans-serif
   );
-  font-size: var(--text-regular-semi-bold-font-size, 16px);
+  font-size: var(--text-regular-semi-bold-font-size, 1rem);
   line-height: var(--text-regular-semi-bold-line-height, 150%);
   font-weight: var(--text-regular-semi-bold-font-weight, 600);
   position: relative;
@@ -156,7 +156,7 @@
   color: var(--black, #000000);
   text-align: left;
   font-family: "MabryPro-Bold", sans-serif;
-  font-size: 48px;
+  font-size: 3rem;
   line-height: 120%;
   font-weight: 700;
   position: relative;
@@ -171,7 +171,7 @@
     "Roboto-Regular",
     sans-serif
   );
-  font-size: var(--text-medium-normal-font-size, 18px);
+  font-size: var(--text-medium-normal-font-size, 1.125rem);
   line-height: var(--text-medium-normal-line-height, 150%);
   font-weight: var(--text-medium-normal-font-weight, 400);
   position: relative;
@@ -181,7 +181,7 @@
 .content2 {
   display: flex;
   flex-direction: row;
-  gap: 80px;
+  gap: 5rem;
   align-items: flex-start;
   justify-content: flex-start;
   align-self: stretch;
@@ -192,19 +192,19 @@
 .row {
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 2.5rem;
   align-items: flex-start;
   justify-content: flex-start;
   align-self: stretch;
   flex-shrink: 0;
-  width: 400px;
+  width: 25rem;
   position: relative;
 }
 
 .content3 {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 1rem;
   align-items: flex-start;
   justify-content: flex-start;
   align-self: stretch;
@@ -214,8 +214,8 @@
 
 .icon-email {
   flex-shrink: 0;
-  width: 32px;
-  height: 32px;
+  width: 2rem;
+  height: 2rem;
   position: relative;
   overflow: visible;
 }
@@ -223,7 +223,7 @@
 .contact-info {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 0.5rem;
   align-items: flex-start;
   justify-content: flex-start;
   align-self: stretch;
@@ -235,7 +235,7 @@
   color: var(--black, #000000);
   text-align: left;
   font-family: "MabryPro-Bold", sans-serif;
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 140%;
   font-weight: 700;
   position: relative;
@@ -250,7 +250,7 @@
     "Roboto-Regular",
     sans-serif
   );
-  font-size: var(--text-regular-normal-font-size, 16px);
+  font-size: var(--text-regular-normal-font-size, 1rem);
   line-height: var(--text-regular-normal-line-height, 150%);
   font-weight: var(--text-regular-normal-font-weight, 400);
   position: relative;
@@ -261,7 +261,7 @@
   color: var(--black, #000000);
   text-align: left;
   font-family: "MabryPro-Regular", sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 150%;
   font-weight: 400;
   text-decoration: underline;
@@ -271,16 +271,16 @@
 
 .icon-phone {
   flex-shrink: 0;
-  width: 32px;
-  height: 32px;
+  width: 2rem;
+  height: 2rem;
   position: relative;
   overflow: visible;
 }
 
 .icon-pin {
   flex-shrink: 0;
-  width: 32px;
-  height: 32px;
+  width: 2rem;
+  height: 2rem;
   position: relative;
   overflow: visible;
 }
@@ -289,7 +289,7 @@
   color: var(--black, #000000);
   text-align: left;
   font-family: "MabryPro-Regular", sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 150%;
   font-weight: 400;
   position: relative;
@@ -297,10 +297,10 @@
 }
 
 .actions2 {
-  padding: 16px 0px 0px 0px;
+  padding: 1rem 0rem 0rem 0rem;
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 0.5rem;
   align-items: flex-start;
   justify-content: flex-start;
   align-self: stretch;
@@ -311,7 +311,7 @@
 .button3 {
   display: flex;
   flex-direction: row;
-  gap: 8px;
+  gap: 0.5rem;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
@@ -322,7 +322,7 @@
   color: var(--black, #000000);
   text-align: left;
   font-family: "MabryPro-Regular", sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 150%;
   font-weight: 400;
   position: relative;
@@ -330,44 +330,44 @@
 
 .icon-chevron-right {
   flex-shrink: 0;
-  width: 24px;
-  height: 24px;
+  width: 1.5rem;
+  height: 1.5rem;
   position: relative;
   overflow: visible;
 }
 
 .placeholder-image {
-  border-radius: 5px;
+  border-radius: 0.3125rem;
   border-style: solid;
   border-color: #000000;
-  border-width: 3px;
+  border-width: 0.1875rem;
   flex-shrink: 0;
-  width: 832px;
-  height: 516px;
+  width: 52rem;
+  height: 32.25rem;
   position: relative;
-  box-shadow: 6px 8px 4px 0px rgba(0, 0, 0, 1);
+  box-shadow: 0.375rem 0.5rem 0.25rem 0rem rgba(0, 0, 0, 1);
   object-fit: cover;
 }
 
 .footer-4 {
   background: #000000;
-  padding: 80px 64px 80px 64px;
+  padding: 5rem 4rem 5rem 4rem;
   display: flex;
   flex-direction: column;
-  gap: 80px;
+  gap: 5rem;
   align-items: center;
   justify-content: flex-start;
-  width: 1440px;
+  width: 90rem;
   position: absolute;
-  left: 0px;
-  top: 1941px;
+  left: 0rem;
+  top: 121.3125rem;
   overflow: hidden;
 }
 
 .content4 {
   display: flex;
   flex-direction: row;
-  gap: 32px;
+  gap: 2rem;
   align-items: center;
   justify-content: flex-start;
   align-self: stretch;
@@ -378,7 +378,7 @@
 .logo {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 1.5rem;
   align-items: flex-start;
   justify-content: flex-start;
   flex: 1;
@@ -389,7 +389,7 @@
 .links {
   display: flex;
   flex-direction: row;
-  gap: 32px;
+  gap: 2rem;
   align-items: flex-start;
   justify-content: flex-start;
   flex-shrink: 0;
@@ -400,7 +400,7 @@
   color: #ffffff;
   text-align: left;
   font-family: "MabryPro-Bold", sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 150%;
   font-weight: 700;
   position: relative;
@@ -409,7 +409,7 @@
 .social-links {
   display: flex;
   flex-direction: row;
-  gap: 12px;
+  gap: 0.75rem;
   align-items: center;
   justify-content: flex-end;
   flex: 1;
@@ -418,40 +418,40 @@
 
 .icon-facebook {
   flex-shrink: 0;
-  width: 24px;
-  height: 24px;
+  width: 1.5rem;
+  height: 1.5rem;
   position: relative;
   overflow: visible;
 }
 
 .icon-instagram {
   flex-shrink: 0;
-  width: 24px;
-  height: 24px;
+  width: 1.5rem;
+  height: 1.5rem;
   position: relative;
   overflow: visible;
 }
 
 .icon-x {
   flex-shrink: 0;
-  width: 24px;
-  height: 24px;
+  width: 1.5rem;
+  height: 1.5rem;
   position: relative;
   overflow: visible;
 }
 
 .icon-linked-in {
   flex-shrink: 0;
-  width: 24px;
-  height: 24px;
+  width: 1.5rem;
+  height: 1.5rem;
   position: relative;
   overflow: visible;
 }
 
 .icon-youtube {
   flex-shrink: 0;
-  width: 24px;
-  height: 24px;
+  width: 1.5rem;
+  height: 1.5rem;
   position: relative;
   overflow: visible;
 }
@@ -459,7 +459,7 @@
 .credits {
   display: flex;
   flex-direction: column;
-  gap: 32px;
+  gap: 2rem;
   align-items: center;
   justify-content: flex-start;
   align-self: stretch;
@@ -471,14 +471,14 @@
   background: #ffffff;
   align-self: stretch;
   flex-shrink: 0;
-  height: 1px;
+  height: 0.0625rem;
   position: relative;
 }
 
 .row2 {
   display: flex;
   flex-direction: row;
-  gap: 24px;
+  gap: 1.5rem;
   align-items: flex-start;
   justify-content: flex-start;
   flex-shrink: 0;
@@ -489,7 +489,7 @@
   color: #ffffff;
   text-align: left;
   font-family: "MabryPro-Regular", sans-serif;
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 150%;
   font-weight: 400;
   position: relative;
@@ -498,7 +498,7 @@
 .footer-links {
   display: flex;
   flex-direction: row;
-  gap: 24px;
+  gap: 1.5rem;
   align-items: flex-start;
   justify-content: flex-start;
   flex-shrink: 0;
@@ -509,7 +509,7 @@
   color: #ffffff;
   text-align: left;
   font-family: "MabryPro-Regular", sans-serif;
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 150%;
   font-weight: 400;
   text-decoration: underline;
@@ -520,42 +520,42 @@
   color: #ffffff;
   text-align: left;
   font-family: "Sunmora-Bold", sans-serif;
-  font-size: 58px;
+  font-size: 3.625rem;
   font-weight: 700;
   position: absolute;
-  left: 45px;
-  top: 1986px;
+  left: 2.8125rem;
+  top: 124.125rem;
 }
 
 .navbar-contact {
   position: sticky;
-  left: 0px;
-  top: -8px;
+  left: 0rem;
+  top: -0.5rem;
 }
 
 .navbar-2 {
   background: var(--white, #ffffff);
   border-style: solid;
   border-color: #000000;
-  border-width: 0px 0px 1px 0px;
-  padding: 0px 64px 0px 64px;
+  border-width: 0rem 0rem 0.0625rem 0rem;
+  padding: 0rem 4rem 0rem 4rem;
   display: flex;
   flex-direction: column;
-  gap: 0px;
+  gap: 0rem;
   align-items: center;
   justify-content: center;
-  width: 1440px;
-  height: 72px;
+  width: 90rem;
+  height: 4.5rem;
   position: absolute;
-  left: 0px;
-  top: 0px;
+  left: 0rem;
+  top: 0rem;
   overflow: hidden;
 }
 
 .container {
   display: flex;
   flex-direction: row;
-  gap: 32px;
+  gap: 2rem;
   align-items: center;
   justify-content: center;
   align-self: stretch;
@@ -566,7 +566,7 @@
 .column2 {
   display: flex;
   flex-direction: row;
-  gap: 0px;
+  gap: 0rem;
   align-items: flex-start;
   justify-content: flex-start;
   flex: 1;
@@ -576,7 +576,7 @@
 .column3 {
   display: flex;
   flex-direction: row;
-  gap: 32px;
+  gap: 2rem;
   align-items: flex-start;
   justify-content: flex-start;
   flex-shrink: 0;
@@ -588,7 +588,7 @@
   color: var(--black, #000000);
   text-align: left;
   font-family: "MabryPro-Regular", sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 150%;
   font-weight: 400;
   position: relative;
@@ -597,7 +597,7 @@
 .column4 {
   display: flex;
   flex-direction: column;
-  gap: 0px;
+  gap: 0rem;
   align-items: flex-end;
   justify-content: center;
   flex: 1;
@@ -606,14 +606,14 @@
 
 .button5 {
   background: var(--black, #000000);
-  border-radius: 5px;
+  border-radius: 0.3125rem;
   border-style: solid;
   border-color: var(--black, #000000);
-  border-width: 1px;
-  padding: 8px 20px 8px 20px;
+  border-width: 0.0625rem;
+  padding: 0.5rem 1.25rem 0.5rem 1.25rem;
   display: flex;
   flex-direction: row;
-  gap: 8px;
+  gap: 0.5rem;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
@@ -624,9 +624,9 @@
   color: #000000;
   text-align: left;
   font-family: "Sunmora-Bold", sans-serif;
-  font-size: 58px;
+  font-size: 3.625rem;
   font-weight: 700;
   position: absolute;
-  left: 0px;
-  top: -8px;
+  left: 0rem;
+  top: -0.5rem;
 }
