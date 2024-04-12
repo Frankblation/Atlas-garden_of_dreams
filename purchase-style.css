@@ -1,6 +1,6 @@
 @font-face {
     font-family:'MabryPro-Regular';
-    src: url('fonts/MabryPro-Regular.ttf') format('ttf'), /* Modern Browsers */
+    src: url(fonts/MabryPro-Regular.ttf);
 }
 @font-face {
     font-family:'Sunmora-Bold';
