@@ -6,6 +6,18 @@
     font-family:'Sunmora-Bold';
     src: url(fonts/SunmoraBold.ttf);
 }
+@font-face {
+    font-family:'MabryPro-Black';
+    src: url(fonts/MabryPro-Black.ttf);
+}
+@font-face {
+    font-family:'MabryPro-Bold';
+    src: url(fonts/MabryPro-Bold.ttf);
+}
+@font-face {
+    font-family:'MabryPro-Medium';
+    src: url(fonts/MabryPro-Medium.ttf);
+}
 
 .purchase-page,
 .purchase-page * {
