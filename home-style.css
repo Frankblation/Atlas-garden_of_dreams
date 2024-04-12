@@ -968,6 +968,7 @@
     color: #ffffff;
     text-align: left;
     font-family: 'Sunmora-Bold', sans-serif;
+    font-feature-settings: "aalt";
     font-size: 3.625rem;
     font-weight: 700;
     position: absolute;
@@ -1093,6 +1094,7 @@
     color: #000000;
     text-align: left;
     font-family: 'Sunmora-Bold', sans-serif;
+    font-feature-settings: "aalt";
     font-size: 3.625rem;
     font-weight: 700;
     position: absolute;
