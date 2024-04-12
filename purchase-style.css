@@ -19,7 +19,12 @@
     src: url(fonts/MabryPro-Medium.ttf);
 }
 
-.purchase-page,
+.icon::before {
+    font-family: 'Sunmora-Bold';
+    content: 'n.sso4';
+}
+
+  .purchase-page,
 .purchase-page * {
     box-sizing: border-box;
 }
