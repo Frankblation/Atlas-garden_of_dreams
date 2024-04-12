@@ -1,3 +1,24 @@
+@font-face {
+  font-family:'MabryPro-Regular';
+  src: url(fonts/MabryPro-Regular.ttf);
+}
+@font-face {
+  font-family:'Sunmora-Bold';
+  src: url(fonts/SunmoraBold.ttf);
+}
+@font-face {
+  font-family:'MabryPro-Black';
+  src: url(fonts/MabryPro-Black.ttf);
+}
+@font-face {
+  font-family:'MabryPro-Bold';
+  src: url(fonts/MabryPro-Bold.ttf);
+}
+@font-face {
+  font-family:'MabryPro-Medium';
+  src: url(fonts/MabryPro-Medium.ttf);
+}
+
 .contact-page,
 .contact-page * {
   box-sizing: border-box;
