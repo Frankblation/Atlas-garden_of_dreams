@@ -1,904 +1,910 @@
 @font-face {
-    font-family: "MabryPro-Regular";
-    src: url(fonts/MabryPro-Regular.ttf);
-  }
-  @font-face {
-    font-family: "Sunmora-Bold";
-    src: url(fonts/SunmoraBold.woff);
-  }
-  @font-face {
-    font-family: "MabryPro-Black";
-    src: url(fonts/MabryPro-Black.ttf);
-  }
-  @font-face {
-    font-family: "MabryPro-Bold";
-    src: url(fonts/MabryPro-Bold.ttf);
-  }
-  @font-face {
-    font-family: "MabryPro-Medium";
-    src: url(fonts/MabryPro-Medium.ttf);
-  }
-  
-  .icon::before {
-    font-family: "Sunmora-Bold";
-    content: "\006E";
-  }
-  
-  .purchase-page,
-  .purchase-page * {
-    box-sizing: border-box;
-  }
-  
-  .purchase-page {
-    background: #ffffff;
-    height: 83.625rem;
-    position: relative;
-    overflow: hidden;
-  }
-  
-  .table-8 {
-    background: #23a094;
-    border-style: solid;
-    border-color: #000000;
-    border-width: 0.125rem 0rem 0.125rem 0rem;
-    padding: 7rem 4rem 7rem 4rem;
-    display: flex;
-    flex-direction: column;
-    gap: 5rem;
-    align-items: flex-start;
-    justify-content: flex-start;
-    width: 90rem;
-    position: absolute;
-    left: 0rem;
-    top: 4.5rem;
-    overflow: hidden;
-  }
-  
-  .table {
-    display: flex;
-    flex-direction: column;
-    gap: 0rem;
-    align-items: flex-start;
-    justify-content: flex-start;
-    align-self: stretch;
-    flex-shrink: 0;
-    position: relative;
-  }
-  
-  .table-header {
-    background: #ffc900;
-    border-style: solid;
-    border-color: var(--black, #000000);
-    border-width: 0.125rem;
-    padding: 1.5rem;
+  font-family: "MabryPro-Regular";
+  src: url(fonts/MabryPro-Regular.ttf);
+}
+@font-face {
+  font-family: "Sunmora-Bold";
+  src: url(fonts/SunmoraBold.woff);
+}
+@font-face {
+  font-family: "MabryPro-Black";
+  src: url(fonts/MabryPro-Black.ttf);
+}
+@font-face {
+  font-family: "MabryPro-Bold";
+  src: url(fonts/MabryPro-Bold.ttf);
+}
+@font-face {
+  font-family: "MabryPro-Medium";
+  src: url(fonts/MabryPro-Medium.ttf);
+}
+
+.icon::before {
+  font-family: "Sunmora-Bold";
+  content: "\006E";
+}
+
+.purchase-page,
+.purchase-page * {
+  box-sizing: border-box;
+}
+
+.purchase-page {
+  background: #ffffff;
+  height: 83.625rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.table-8 {
+  background: #23a094;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 0.125rem 0rem 0.125rem 0rem;
+  padding: 7rem 4rem 7rem 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 90rem;
+  position: absolute;
+  left: 0rem;
+  top: 4.5rem;
+  overflow: hidden;
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.table-header {
+  background: #ffc900;
+  border-style: solid;
+  border-color: var(--black, #000000);
+  border-width: 0.125rem;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  gap: 0.75rem;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+
+.heading {
+  color: var(--black, #000000);
+  text-align: left;
+  font-family: "MabryPro-Bold", sans-serif;
+  font-size: 1.25rem;
+  line-height: 150%;
+  font-weight: 700;
+  position: relative;
+}
+
+.text {
+  color: var(--black, #000000);
+  text-align: left;
+  font-family: "MabryPro-Regular", sans-serif;
+  font-size: 1.125rem;
+  line-height: 150%;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+}
+
+.actions {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.button {
+  border-radius: 0.5rem 0rem 0rem 0.5rem;
+  border-style: solid;
+  border-color: var(--black, #000000);
+  border-width: 0.125rem;
+  padding: 0.5rem 1.25rem 0.5rem 1.25rem;
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.button2 {
+  color: var(--black, #000000);
+  text-align: left;
+  font-family: "MabryPro-Regular", sans-serif;
+  font-size: 1rem;
+  line-height: 150%;
+  font-weight: 400;
+  position: relative;
+}
+
+.button3 {
+  background: var(--black, #000000);
+  border-radius: 0rem 0.5rem 0.5rem 0rem;
+  border-style: solid;
+  border-color: var(--black, #000000);
+  border-width: 0.125rem;
+  padding: 0.5rem 1.25rem 0.5rem 1.25rem;
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.button4 {
+  color: var(--white, #ffffff);
+  text-align: left;
+  font-family: "MabryPro-Regular", sans-serif;
+  font-size: 1rem;
+  line-height: 150%;
+  font-weight: 400;
+  position: relative;
+}
+
+.table-container {
+  background: #ffffff;
+  border-style: solid;
+  border-color: var(--black, #000000);
+  border-width: 0rem 0.125rem 0.125rem 0.125rem;
+  display: flex;
+  flex-direction: row;
+  gap: 0rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: auto;
+}
+
+.table-column {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+
+.table-header2 {
+  border-style: solid;
+  border-color: var(--black, #000000);
+  border-width: 0rem 0rem 0.0625rem 0rem;
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  display: flex;
+  flex-direction: row;
+  gap: 0rem;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.name {
+  color: var(--black, #000000);
+  text-align: left;
+  font-family: "MabryPro-Bold", sans-serif;
+  font-size: 1rem;
+  line-height: 150%;
+  font-weight: 700;
+  position: relative;
+}
+
+.table-cell {
+  border-style: solid;
+  border-color: var(--black, #000000);
+  border-width: 0rem 0rem 0.0625rem 0rem;
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  display: flex;
+  flex-direction: row;
+  gap: 0.75rem;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.image {
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 0.0625rem;
+  flex-shrink: 0;
+  width: 3rem;
+  height: 3rem;
+  position: relative;
+  object-fit: cover;
+}
+
+.text2 {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+
+.full-name {
+  color: var(--black, #000000);
+  text-align: left;
+  font-family: "MabryPro-Medium", sans-serif;
+  font-size: 1rem;
+  line-height: 150%;
+  font-weight: 500;
+  position: relative;
+  align-self: stretch;
+  height: 1.5rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.name-relume-io {
+  color: var(--black, #000000);
+  text-align: left;
+  font-family: "MabryPro-Regular", sans-serif;
+  font-size: 0.875rem;
+  line-height: 150%;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+  height: 1.3125rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.table-column2 {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  width: 12rem;
+  position: relative;
+}
+
+.table-header3 {
+  border-style: solid;
+  border-color: var(--black, #000000);
+  border-width: 0rem 0rem 0.0625rem 0rem;
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  display: flex;
+  flex-direction: row;
+  gap: 0rem;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.team {
+  color: var(--black, #000000);
+  text-align: left;
+  font-family: "MabryPro-Bold", sans-serif;
+  font-size: 1rem;
+  line-height: 150%;
+  font-weight: 700;
+  position: relative;
+}
+
+.table-cell2 {
+  border-style: solid;
+  border-color: var(--black, #000000);
+  border-width: 0rem 0rem 0.0625rem 0rem;
+  padding: 1.75rem 1.5rem 1.75rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.team-name {
+  color: var(--black, #000000);
+  text-align: center;
+  font-family: "MabryPro-Regular", sans-serif;
+  font-size: 1rem;
+  line-height: 150%;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+  height: 1.5rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.table-column3 {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  width: 8rem;
+  position: relative;
+}
+
+.date {
+  color: var(--black, #000000);
+  text-align: center;
+  font-family: "MabryPro-Bold", sans-serif;
+  font-size: 1rem;
+  line-height: 150%;
+  font-weight: 700;
+  position: relative;
+}
+
+._1-11-2050 {
+  color: var(--black, #000000);
+  text-align: center;
+  font-family: "MabryPro-Regular", sans-serif;
+  font-size: 1rem;
+  line-height: 150%;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+  height: 1.5rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.table-column4 {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative; bottom: -0.05rem;
+}
+
+.table-header4 {
+  border-style: solid;
+  border-color: var(--black, #000000);
+  border-width: 0rem 0rem 0.0625rem 0rem;
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  display: flex;
+  flex-direction: row;
+  gap: 0rem;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 3.5rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.table-cell3 {
+  border-style: solid;
+  border-color: var(--black, #000000);
+  border-width: 0rem 0rem 0.0625rem 0rem;
+  padding: 1.75rem 1.5rem 1.75rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.view {
+  color: var(--black, #000000);
+  text-align: center;
+  font-family: "MabryPro-Bold", sans-serif;
+  font-size: 1rem;
+  line-height: 150%;
+  font-weight: 700;
+  position: relative;
+}
+
+.table-pagination {
+  background: #23a094;
+  padding: 2rem 0rem 0rem 0rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.page-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.button5 {
+  background: #ff90e8;
+  border-radius: 0.5rem 0rem 0rem 0.5rem;
+  border-style: solid;
+  border-color: var(--black, #000000);
+  border-width: 0.125rem;
+  padding: 0.5rem 1.25rem 0.5rem 1.25rem;
+  display: flex;
+  flex-direction: row;
+  gap: 0.75rem;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.icon-chevron-left {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 1.5rem;
+  position: relative;
+  overflow: visible;
+}
+
+.pagination-numbers {
+  display: flex;
+  flex-direction: row;
+  gap: 0.125rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.content2 {
+  border-style: solid;
+  border-color: var(--black, #000000);
+  border-width: 0.125rem;
+  padding: 0.75rem;
+  display: flex;
+  flex-direction: row;
+  gap: 0rem;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 2.5rem;
+  height: 2.5rem;
+  position: relative;
+}
+
+._1 {
+  color: var(--black, #000000);
+  text-align: center;
+  font-family: "MabryPro-Regular", sans-serif;
+  font-size: 1rem;
+  line-height: 150%;
+  font-weight: 400;
+  position: relative;
+}
+
+.pagination-number {
+  border-radius: 0.5rem;
+  flex-shrink: 0;
+  width: 2.5rem;
+  height: 2.5rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.content3 {
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+  display: flex;
+  flex-direction: row;
+  gap: 0rem;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  position: absolute;
+  left: 0rem;
+  top: 0rem;
+}
+
+._2 {
+  color: var(--black, #000000);
+  text-align: center;
+  font-family: "MabryPro-Regular", sans-serif;
+  font-size: 1rem;
+  line-height: 150%;
+  font-weight: 400;
+  position: relative;
+}
+
+._3 {
+  color: var(--black, #000000);
+  text-align: center;
+  font-family: "MabryPro-Regular", sans-serif;
+  font-size: 1rem;
+  line-height: 150%;
+  font-weight: 400;
+  position: relative;
+}
+
+._4 {
+  color: var(--black, #000000);
+  text-align: center;
+  font-family: "MabryPro-Regular", sans-serif;
+  font-size: 1rem;
+  line-height: 150%;
+  font-weight: 400;
+  position: relative;
+}
+
+.button6 {
+  background: #ff90e8;
+  border-radius: 0rem 0.5rem 0.5rem 0rem;
+  border-style: solid;
+  border-color: var(--black, #000000);
+  border-width: 0.125rem;
+  padding: 0.5rem 1.25rem 0.5rem 1.25rem;
+  display: flex;
+  flex-direction: row;
+  gap: 0.75rem;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.icon-chevron-right {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 1.5rem;
+  position: relative;
+  overflow: visible;
+}
+
+.footer-4 {
+  background: #000000;
+  padding: 5rem 4rem 5rem 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  align-items: center;
+  justify-content: flex-start;
+  width: 90rem;
+  position: absolute;
+  left: 0rem;
+  top: 63.5625rem;
+  overflow: hidden;
+}
+
+.content4 {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.logo {
     display: flex;
     flex-direction: row;
-    gap: 0.75rem;
-    align-items: center;
-    justify-content: flex-start;
-    align-self: stretch;
-    flex-shrink: 0;
-    position: relative;
-  }
-  
-  .content {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
+    gap: 0rem;
     align-items: flex-start;
     justify-content: flex-start;
     flex: 1;
     position: relative;
-  }
-  
-  .heading {
-    color: var(--black, #000000);
-    text-align: left;
-    font-family: "MabryPro-Bold", sans-serif;
-    font-size: 1.25rem;
-    line-height: 150%;
-    font-weight: 700;
-    position: relative;
-  }
-  
-  .text {
-    color: var(--black, #000000);
-    text-align: left;
-    font-family: "MabryPro-Regular", sans-serif;
-    font-size: 1.125rem;
-    line-height: 150%;
-    font-weight: 400;
-    position: relative;
-    align-self: stretch;
-  }
-  
-  .actions {
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-shrink: 0;
-    position: relative;
-  }
-  
-  .button {
-    border-radius: 0.5rem 0rem 0rem 0.5rem;
-    border-style: solid;
-    border-color: var(--black, #000000);
-    border-width: 0.125rem;
-    padding: 0.5rem 1.25rem 0.5rem 1.25rem;
-    display: flex;
-    flex-direction: row;
-    gap: 0.5rem;
-    align-items: center;
-    justify-content: center;
-    flex-shrink: 0;
-    position: relative;
-  }
-  
-  .button2 {
-    color: var(--black, #000000);
-    text-align: left;
-    font-family: "MabryPro-Regular", sans-serif;
-    font-size: 1rem;
-    line-height: 150%;
-    font-weight: 400;
-    position: relative;
-  }
-  
-  .button3 {
-    background: var(--black, #000000);
-    border-radius: 0rem 0.5rem 0.5rem 0rem;
-    border-style: solid;
-    border-color: var(--black, #000000);
-    border-width: 0.125rem;
-    padding: 0.5rem 1.25rem 0.5rem 1.25rem;
-    display: flex;
-    flex-direction: row;
-    gap: 0.5rem;
-    align-items: center;
-    justify-content: center;
-    flex-shrink: 0;
-    position: relative;
-  }
-  
-  .button4 {
-    color: var(--white, #ffffff);
-    text-align: left;
-    font-family: "MabryPro-Regular", sans-serif;
-    font-size: 1rem;
-    line-height: 150%;
-    font-weight: 400;
-    position: relative;
-  }
-  
-  .table-container {
-    background: #ffffff;
-    border-style: solid;
-    border-color: var(--black, #000000);
-    border-width: 0rem 0.125rem 0.125rem 0.125rem;
-    display: flex;
-    flex-direction: row;
-    gap: 0rem;
-    align-items: flex-start;
-    justify-content: flex-start;
-    align-self: stretch;
-    flex-shrink: 0;
-    position: relative;
-    overflow: hidden;
-  }
-  
-  .table-column {
-    display: flex;
-    flex-direction: column;
-    gap: 0rem;
-    align-items: flex-start;
-    justify-content: flex-start;
-    align-self: stretch;
-    flex: 1;
-    position: relative;
-  }
-  
-  .table-header2 {
-    border-style: solid;
-    border-color: var(--black, #000000);
-    border-width: 0rem 0rem 0.0625rem 0rem;
-    padding: 1rem 1.5rem 1rem 1.5rem;
-    display: flex;
-    flex-direction: row;
-    gap: 0rem;
-    align-items: center;
-    justify-content: flex-start;
-    align-self: stretch;
-    flex-shrink: 0;
-    position: relative;
-    overflow: hidden;
-  }
-  
-  .name {
-    color: var(--black, #000000);
-    text-align: left;
-    font-family: "MabryPro-Bold", sans-serif;
-    font-size: 1rem;
-    line-height: 150%;
-    font-weight: 700;
-    position: relative;
-  }
-  
-  .table-cell {
-    border-style: solid;
-    border-color: var(--black, #000000);
-    border-width: 0rem 0rem 0.0625rem 0rem;
-    padding: 1rem 1.5rem 1rem 1.5rem;
-    display: flex;
-    flex-direction: row;
-    gap: 0.75rem;
-    align-items: center;
-    justify-content: flex-start;
-    align-self: stretch;
-    flex-shrink: 0;
-    position: relative;
-  }
-  
-  .image {
-    border-radius: 50%;
-    border-style: solid;
-    border-color: #000000;
-    border-width: 0.0625rem;
-    flex-shrink: 0;
-    width: 3rem;
-    height: 3rem;
-    position: relative;
-    object-fit: cover;
-  }
-  
-  .text2 {
-    display: flex;
-    flex-direction: column;
-    gap: 0rem;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex: 1;
-    position: relative;
-  }
-  
-  .full-name {
-    color: var(--black, #000000);
-    text-align: left;
-    font-family: "MabryPro-Medium", sans-serif;
-    font-size: 1rem;
-    line-height: 150%;
-    font-weight: 500;
-    position: relative;
-    align-self: stretch;
-    height: 1.5rem;
-    text-overflow: ellipsis;
-    overflow: hidden;
-  }
-  
-  .name-relume-io {
-    color: var(--black, #000000);
-    text-align: left;
-    font-family: "MabryPro-Regular", sans-serif;
-    font-size: 0.875rem;
-    line-height: 150%;
-    font-weight: 400;
-    position: relative;
-    align-self: stretch;
-    height: 1.3125rem;
-    text-overflow: ellipsis;
-    overflow: hidden;
-  }
-  
-  .table-column2 {
-    display: flex;
-    flex-direction: column;
-    gap: 0rem;
-    align-items: flex-start;
-    justify-content: flex-start;
-    align-self: stretch;
-    flex-shrink: 0;
-    width: 12rem;
-    position: relative;
-  }
-  
-  .table-header3 {
-    border-style: solid;
-    border-color: var(--black, #000000);
-    border-width: 0rem 0rem 0.0625rem 0rem;
-    padding: 1rem 1.5rem 1rem 1.5rem;
-    display: flex;
-    flex-direction: row;
-    gap: 0rem;
-    align-items: center;
-    justify-content: center;
-    align-self: stretch;
-    flex-shrink: 0;
-    position: relative;
-    overflow: hidden;
-  }
-  
-  .team {
-    color: var(--black, #000000);
-    text-align: left;
-    font-family: "MabryPro-Bold", sans-serif;
-    font-size: 1rem;
-    line-height: 150%;
-    font-weight: 700;
-    position: relative;
-  }
-  
-  .table-cell2 {
-    border-style: solid;
-    border-color: var(--black, #000000);
-    border-width: 0rem 0rem 0.0625rem 0rem;
-    padding: 1.75rem 1.5rem 1.75rem 1.5rem;
-    display: flex;
-    flex-direction: column;
-    gap: 0.25rem;
-    align-items: flex-start;
-    justify-content: center;
-    align-self: stretch;
-    flex-shrink: 0;
-    position: relative;
-  }
-  
-  .team-name {
-    color: var(--black, #000000);
-    text-align: center;
-    font-family: "MabryPro-Regular", sans-serif;
-    font-size: 1rem;
-    line-height: 150%;
-    font-weight: 400;
-    position: relative;
-    align-self: stretch;
-    height: 1.5rem;
-    text-overflow: ellipsis;
-    overflow: hidden;
-  }
-  
-  .table-column3 {
-    display: flex;
-    flex-direction: column;
-    gap: 0rem;
-    align-items: flex-start;
-    justify-content: flex-start;
-    align-self: stretch;
-    flex-shrink: 0;
-    width: 8rem;
-    position: relative;
-  }
-  
-  .date {
-    color: var(--black, #000000);
-    text-align: center;
-    font-family: "MabryPro-Bold", sans-serif;
-    font-size: 1rem;
-    line-height: 150%;
-    font-weight: 700;
-    position: relative;
-  }
-  
-  ._1-11-2050 {
-    color: var(--black, #000000);
-    text-align: center;
-    font-family: "MabryPro-Regular", sans-serif;
-    font-size: 1rem;
-    line-height: 150%;
-    font-weight: 400;
-    position: relative;
-    align-self: stretch;
-    height: 1.5rem;
-    text-overflow: ellipsis;
-    overflow: hidden;
-  }
-  
-  .table-column4 {
-    display: flex;
-    flex-direction: column;
-    gap: 0rem;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-shrink: 0;
-    position: relative;
-  }
-  
-  .table-header4 {
-    border-style: solid;
-    border-color: var(--black, #000000);
-    border-width: 0rem 0rem 0.0625rem 0rem;
-    padding: 1rem 1.5rem 1rem 1.5rem;
-    display: flex;
-    flex-direction: row;
-    gap: 0rem;
-    align-items: center;
-    justify-content: flex-start;
-    align-self: stretch;
-    flex-shrink: 0;
-    height: 3.5rem;
-    position: relative;
-    overflow: hidden;
-  }
-  
-  .table-cell3 {
-    border-style: solid;
-    border-color: var(--black, #000000);
-    border-width: 0rem 0rem 0.0625rem 0rem;
-    padding: 1.75rem 1.5rem 1.75rem 1.5rem;
-    display: flex;
-    flex-direction: column;
-    gap: 0.25rem;
-    align-items: flex-start;
-    justify-content: center;
-    flex-shrink: 0;
-    position: relative;
-  }
-  
-  .view {
-    color: var(--black, #000000);
-    text-align: center;
-    font-family: "MabryPro-Bold", sans-serif;
-    font-size: 1rem;
-    line-height: 150%;
-    font-weight: 700;
-    position: relative;
-  }
-  
-  .table-pagination {
-    background: #23a094;
-    padding: 2rem 0rem 0rem 0rem;
-    display: flex;
-    flex-direction: column;
-    gap: 0rem;
-    align-items: flex-start;
-    justify-content: flex-start;
-    align-self: stretch;
-    flex-shrink: 0;
-    position: relative;
-  }
-  
-  .page-buttons {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    align-self: stretch;
-    flex-shrink: 0;
-    position: relative;
-  }
-  
-  .button5 {
-    background: #ff90e8;
-    border-radius: 0.5rem 0rem 0rem 0.5rem;
-    border-style: solid;
-    border-color: var(--black, #000000);
-    border-width: 0.125rem;
-    padding: 0.5rem 1.25rem 0.5rem 1.25rem;
-    display: flex;
-    flex-direction: row;
-    gap: 0.75rem;
-    align-items: center;
-    justify-content: center;
-    flex-shrink: 0;
-    position: relative;
-  }
-  
-  .icon-chevron-left {
-    flex-shrink: 0;
-    width: 1.5rem;
-    height: 1.5rem;
-    position: relative;
-    overflow: visible;
-  }
-  
-  .pagination-numbers {
-    display: flex;
-    flex-direction: row;
-    gap: 0.125rem;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-shrink: 0;
-    position: relative;
-  }
-  
-  .content2 {
-    border-style: solid;
-    border-color: var(--black, #000000);
-    border-width: 0.125rem;
-    padding: 0.75rem;
-    display: flex;
-    flex-direction: row;
-    gap: 0rem;
-    align-items: center;
-    justify-content: center;
-    flex-shrink: 0;
-    width: 2.5rem;
-    height: 2.5rem;
-    position: relative;
-  }
-  
-  ._1 {
-    color: var(--black, #000000);
-    text-align: center;
-    font-family: "MabryPro-Regular", sans-serif;
-    font-size: 1rem;
-    line-height: 150%;
-    font-weight: 400;
-    position: relative;
-  }
-  
-  .pagination-number {
-    border-radius: 0.5rem;
-    flex-shrink: 0;
-    width: 2.5rem;
-    height: 2.5rem;
-    position: relative;
-    overflow: hidden;
-  }
-  
-  .content3 {
-    border-radius: 0.5rem;
-    padding: 0.75rem;
-    display: flex;
-    flex-direction: row;
-    gap: 0rem;
-    align-items: center;
-    justify-content: center;
-    width: 2.5rem;
-    height: 2.5rem;
-    position: absolute;
-    left: 0rem;
-    top: 0rem;
-  }
-  
-  ._2 {
-    color: var(--black, #000000);
-    text-align: center;
-    font-family: "MabryPro-Regular", sans-serif;
-    font-size: 1rem;
-    line-height: 150%;
-    font-weight: 400;
-    position: relative;
-  }
-  
-  ._3 {
-    color: var(--black, #000000);
-    text-align: center;
-    font-family: "MabryPro-Regular", sans-serif;
-    font-size: 1rem;
-    line-height: 150%;
-    font-weight: 400;
-    position: relative;
-  }
-  
-  ._4 {
-    color: var(--black, #000000);
-    text-align: center;
-    font-family: "MabryPro-Regular", sans-serif;
-    font-size: 1rem;
-    line-height: 150%;
-    font-weight: 400;
-    position: relative;
-  }
-  
-  .button6 {
-    background: #ff90e8;
-    border-radius: 0rem 0.5rem 0.5rem 0rem;
-    border-style: solid;
-    border-color: var(--black, #000000);
-    border-width: 0.125rem;
-    padding: 0.5rem 1.25rem 0.5rem 1.25rem;
-    display: flex;
-    flex-direction: row;
-    gap: 0.75rem;
-    align-items: center;
-    justify-content: center;
-    flex-shrink: 0;
-    position: relative;
-  }
-  
-  .icon-chevron-right {
-    flex-shrink: 0;
-    width: 1.5rem;
-    height: 1.5rem;
-    position: relative;
-    overflow: visible;
-  }
-  
-  .footer-4 {
-    background: #000000;
-    padding: 5rem 4rem 5rem 4rem;
-    display: flex;
-    flex-direction: column;
-    gap: 5rem;
-    align-items: center;
-    justify-content: flex-start;
-    width: 90rem;
-    position: absolute;
-    left: 0rem;
-    top: 63.5625rem;
-    overflow: hidden;
-  }
-  
-  .content4 {
-    display: flex;
-    flex-direction: row;
-    gap: 2rem;
-    align-items: center;
-    justify-content: flex-start;
-    align-self: stretch;
-    flex-shrink: 0;
-    position: relative;
-  }
-  
-  .logo {
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex: 1;
-    position: relative;
-    overflow: hidden;
-  }
-  
-  .links {
-    display: flex;
-    flex-direction: row;
-    gap: 2rem;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-shrink: 0;
-    position: relative;
-  }
-  
-  .link {
-    color: #ffffff;
-    text-align: left;
-    font-family: "MabryPro-Bold", sans-serif;
-    font-size: 1rem;
-    line-height: 150%;
-    font-weight: 700;
-    position: relative;
-    text-decoration: none;
-  }
-  
-  .link:hover {
-    text-decoration: underline;
-    color: #0e5bb4;
-  }
-  
-  .social-links {
-    display: flex;
-    flex-direction: row;
-    gap: 0.75rem;
-    align-items: center;
-    justify-content: flex-end;
-    flex: 1;
-    position: relative;
-  }
-  
-  .icon-facebook {
-    flex-shrink: 0;
-    width: 1.5rem;
-    height: 1.5rem;
-    position: relative;
-    overflow: visible;
-  }
-  
-  .icon-instagram {
-    flex-shrink: 0;
-    width: 1.5rem;
-    height: 1.5rem;
-    position: relative;
-    overflow: visible;
-  }
-  
-  .icon-x {
-    flex-shrink: 0;
-    width: 1.5rem;
-    height: 1.5rem;
-    position: relative;
-    overflow: visible;
-  }
-  
-  .icon-linked-in {
-    flex-shrink: 0;
-    width: 1.5rem;
-    height: 1.5rem;
-    position: relative;
-    overflow: visible;
-  }
-  
-  .icon-youtube {
-    flex-shrink: 0;
-    width: 1.5rem;
-    height: 1.5rem;
-    position: relative;
-    overflow: visible;
-  }
-  
-  .credits {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    align-items: center;
-    justify-content: flex-start;
-    align-self: stretch;
-    flex-shrink: 0;
-    position: relative;
-  }
-  
-  .divider {
-    background: #ffffff;
-    align-self: stretch;
-    flex-shrink: 0;
-    height: 0.0625rem;
-    position: relative;
-  }
-  
-  .row {
-    display: flex;
-    flex-direction: row;
-    gap: 1.5rem;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-shrink: 0;
-    position: relative;
-  }
-  
-  .text3 {
-    color: #ffffff;
-    text-align: left;
-    font-family: "MabryPro-Regular", sans-serif;
-    font-size: 0.875rem;
-    line-height: 150%;
-    font-weight: 400;
-    position: relative;
-  }
-  
-  .footer-links {
-    display: flex;
-    flex-direction: row;
-    gap: 1.5rem;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-shrink: 0;
-    position: relative;
-  }
-  
-  .link2 {
-    color: #ffffff;
-    text-align: left;
-    font-family: "MabryPro-Regular", sans-serif;
-    font-size: 0.875rem;
-    line-height: 150%;
-    font-weight: 400;
-    text-decoration: underline;
-    position: relative;
-  }
-  
-  .rue-s-run-farms {
-    color: #ffffff;
-    text-align: left;
     font-family: "Sunmora-Bold", sans-serif;
     font-feature-settings: "aalt";
-    font-size: 3.625rem;
-    font-weight: 700;
-    position: absolute;
-    left: 3.4375rem;
-    top: 66.375rem;
-  }
-  
-  .navbar-purchase {
-    position: sticky;
-    left: 0rem;
-    top: -0.625rem;
-  }
-  
-  .navbar-2 {
-    background: var(--white, #ffffff);
-    border-style: solid;
-    border-color: #000000;
-    border-width: 0rem 0rem 0.0625rem 0rem;
-    padding: 0rem 4rem 0rem 4rem;
-    display: flex;
-    flex-direction: column;
-    gap: 0rem;
-    align-items: center;
-    justify-content: center;
-    width: 90rem;
-    height: 4.5rem;
-    position: absolute;
-    left: 0rem;
-    top: 0rem;
-    overflow: hidden;
-  }
-  
-  .container {
-    display: flex;
-    flex-direction: row;
-    gap: 2rem;
-    align-items: center;
-    justify-content: center;
-    align-self: stretch;
-    flex-shrink: 0;
-    position: relative;
-  }
-  
-  .column {
-    display: flex;
-    flex-direction: row;
-    gap: 0rem;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex: 1;
-    position: relative;
-  }
-  
-  .column2 {
-    display: flex;
-    flex-direction: row;
-    gap: 2rem;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-shrink: 0;
-    position: relative;
-    overflow: hidden;
-  }
-  
-  .link3 {
-    color: var(--black, #000000);
-    text-align: left;
-    font-family: "MabryPro-Regular", sans-serif;
-    font-size: 1rem;
-    line-height: 150%;
-    font-weight: 400;
-    position: relative;
-    text-decoration: none;
-  }
-  
-  .link3:hover {
-    text-decoration: underline;
-    color: #0e5bb4;
-  }
-  
-  .column3 {
-    display: flex;
-    flex-direction: column;
-    gap: 0rem;
-    align-items: flex-end;
-    justify-content: center;
-    flex: 1;
-    position: relative;
-  }
-  
-  .button7 {
-    background: var(--black, #000000);
-    border-radius: 0.3125rem;
-    border-style: solid;
-    border-color: var(--black, #000000);
-    border-width: 0.0625rem;
-    padding: 0.5rem 1.25rem 0.5rem 1.25rem;
-    display: flex;
-    flex-direction: row;
-    gap: 0.5rem;
-    align-items: center;
-    justify-content: center;
-    flex-shrink: 0;
-    position: relative;
-  }
-  
-  .rue-s-run-farms2 {
-    color: #000000;
-    text-align: left;
-    font-family: "Sunmora-Bold", sans-serif;
-    font-feature-settings: "aalt";
-    font-size: 3.625rem;
-    font-weight: 700;
-    position: absolute;
-    left: 0rem;
-    top: -0.625rem;
-  }
-  
+    font-size: 2rem;
+    color: white;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.link {
+  color: #ffffff;
+  text-align: left;
+  font-family: "MabryPro-Bold", sans-serif;
+  font-size: 1rem;
+  line-height: 150%;
+  font-weight: 700;
+  position: relative;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+  color: #0e5bb4;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: row;
+  gap: 0.75rem;
+  align-items: center;
+  justify-content: flex-end;
+  flex: 1;
+  position: relative;
+}
+
+.icon-facebook {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 1.5rem;
+  position: relative;
+  overflow: visible;
+}
+
+.icon-instagram {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 1.5rem;
+  position: relative;
+  overflow: visible;
+}
+
+.icon-x {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 1.5rem;
+  position: relative;
+  overflow: visible;
+}
+
+.icon-linked-in {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 1.5rem;
+  position: relative;
+  overflow: visible;
+}
+
+.icon-youtube {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 1.5rem;
+  position: relative;
+  overflow: visible;
+}
+
+.credits {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.divider {
+  background: #ffffff;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 0.0625rem;
+  position: relative;
+}
+
+.row-class {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.text3 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "MabryPro-Regular", sans-serif;
+  font-size: 0.875rem;
+  line-height: 150%;
+  font-weight: 400;
+  position: relative;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.link2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "MabryPro-Regular", sans-serif;
+  font-size: 0.875rem;
+  line-height: 150%;
+  font-weight: 400;
+  text-decoration: underline;
+  position: relative;
+}
+
+.rue-s-run-farms {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Sunmora-Bold", sans-serif;
+  font-feature-settings: "aalt";
+  font-size: 3.625rem;
+  font-weight: 700;
+  position: absolute;
+  left: 3.4375rem;
+  top: 66.375rem;
+}
+
+.navbar-purchase {
+  position: sticky;
+  left: 0rem;
+  top: -0.625rem;
+}
+
+.navbar-2 {
+  background: var(--white, #ffffff);
+  border-style: solid;
+  border-color: #000000;
+  border-width: 0rem 0rem 0.0625rem 0rem;
+  padding: 0rem 4rem 0rem 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  align-items: center;
+  justify-content: center;
+  width: 90rem;
+  height: 4.5rem;
+  position: relative;
+  left: 0rem;
+  top: 0rem;
+  overflow: hidden;
+}
+
+.container-class {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.column {
+  display: flex;
+  flex-direction: row;
+  gap: 0rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+  font-family: "Sunmora-Bold", sans-serif;
+  font-feature-settings: "aalt";
+  font-size: 2.75rem;
+}
+
+.column2 {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.link3 {
+  color: var(--black, #000000);
+  text-align: left;
+  font-family: "MabryPro-Regular", sans-serif;
+  font-size: 1rem;
+  line-height: 150%;
+  font-weight: 400;
+  position: relative;
+  text-decoration: none;
+}
+
+.link3:hover {
+  text-decoration: underline;
+  color: #0e5bb4;
+}
+
+.column3 {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  align-items: flex-end;
+  justify-content: center;
+  flex: 1;
+  position: relative;
+}
+
+.button7 {
+  background: var(--black, #000000);
+  border-radius: 0.3125rem;
+  border-style: solid;
+  border-color: var(--black, #000000);
+  border-width: 0.0625rem;
+  padding: 0.5rem 1.25rem 0.5rem 1.25rem;
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.rue-s-run-farms2 {
+  color: #000000;
+  text-align: left;
+  font-family: "Sunmora-Bold", sans-serif;
+  font-feature-settings: "aalt";
+  font-size: 3.625rem;
+  font-weight: 700;
+  position: absolute;
+  left: 0rem;
+  top: -0.625rem;
+}
