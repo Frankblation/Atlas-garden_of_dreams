@@ -19,19 +19,8 @@
     src: url(fonts/MabryPro-Medium.ttf);
 }
 
-.homepage,
-.homepage * {
-    box-sizing: border-box;
-}
 
-.homepage {
-    background: #ffffff;
-    height: 358.6875rem;
-    position: relative;
-    overflow: hidden;
-}
-
-.header-36 {
+/*.header-36 {
     background: #ffc900;
     border-style: solid;
     border-color: #000000;
@@ -110,7 +99,7 @@
     align-self: stretch;
 }
 
-.actions {
+.actions imortant!{
     padding: 1rem 0rem 0rem 0rem;
     display: flex;
     flex-direction: row;
