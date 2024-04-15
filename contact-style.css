@@ -1,21 +1,21 @@
 @font-face {
-  font-family:'MabryPro-Regular';
+  font-family: "MabryPro-Regular";
   src: url(fonts/MabryPro-Regular.ttf);
 }
 @font-face {
-  font-family:'Sunmora-Bold';
+  font-family: "Sunmora-Bold";
   src: url(fonts/SunmoraBold.ttf);
 }
 @font-face {
-  font-family:'MabryPro-Black';
+  font-family: "MabryPro-Black";
   src: url(fonts/MabryPro-Black.ttf);
 }
 @font-face {
-  font-family:'MabryPro-Bold';
+  font-family: "MabryPro-Bold";
   src: url(fonts/MabryPro-Bold.ttf);
 }
 @font-face {
-  font-family:'MabryPro-Medium';
+  font-family: "MabryPro-Medium";
   src: url(fonts/MabryPro-Medium.ttf);
 }
 
@@ -426,6 +426,12 @@
   line-height: 150%;
   font-weight: 700;
   position: relative;
+  text-decoration: none;
+}
+
+.link2:hover {
+  text-decoration: underline;
+  color: #0e5bb4;
 }
 
 .social-links {
@@ -615,6 +621,12 @@
   line-height: 150%;
   font-weight: 400;
   position: relative;
+  text-decoration: none;
+}
+
+.link4:hover {
+  text-decoration: underline;
+  color: #0e5bb4;
 }
 
 .column4 {
