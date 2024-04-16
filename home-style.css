@@ -20,36 +20,16 @@
 }
 
 
-/*.header-36 {
+.header-36 {
     background: #ffc900;
     border-style: solid;
     border-color: #000000;
     border-width: 0.25rem 0rem 0.25rem 0rem;
-    display: flex;
-    flex-direction: column;
-    gap: 5rem;
-    align-items: center;
-    justify-content: flex-start;
-    width: 90rem;
-    position: absolute;
-    left: 0rem;
-    top: 4.5rem;
-    overflow: hidden;
+
+ 
 }
 
-.container {
-    border-style: solid;
-    border-color: transparent;
-    border-width: 0.0625rem;
-    display: flex;
-    flex-direction: row;
-    gap: 0rem;
-    align-items: flex-start;
-    justify-content: flex-start;
-    align-self: stretch;
-    flex-shrink: 0;
-    position: relative;
-}
+
 
 .column {
     border-style: solid;
@@ -71,7 +51,7 @@
     flex-direction: column;
     gap: 1.5rem;
     align-items: flex-start;
-    justify-content: flex-start;
+    justify-content: center;
     align-self: stretch;
     flex-shrink: 0;
     position: relative;
@@ -99,7 +79,7 @@
     align-self: stretch;
 }
 
-.actions imortant!{
+.actions {
     padding: 1rem 0rem 0rem 0rem;
     display: flex;
     flex-direction: row;
@@ -111,7 +91,7 @@
 }
 
 .button {
-    background: #ff90e8;
+    background: #ff90e8 !important;
     border-radius: 0.3125rem 0rem 0rem 0.3125rem;
     border-style: solid;
     border-color: var(--black, #000000);
@@ -153,14 +133,11 @@
     position: relative;
 }
 
-.placeholder-image {
+.rue {
     border-style: solid;
     border-color: #000000;
-    border-width: 0rem 0rem 0rem 0.125rem;
-    flex: 1;
-    height: 56.25rem;
-    position: relative;
-    object-fit: cover;
+    border-width: 0rem 0rem 0rem 1rem;
+    max-width: rem;
 }
 
 .blog-35 {
@@ -174,7 +151,7 @@
     gap: 5rem;
     align-items: center;
     justify-content: flex-start;
-    width: 90rem;
+    width: 100%;
     position: absolute;
     left: 0rem;
     top: 60.75rem;
@@ -472,7 +449,7 @@
     gap: 5rem;
     align-items: center;
     justify-content: flex-start;
-    width: 90rem;
+    width: 100%;
     position: absolute;
     left: 0rem;
     top: 129.75rem;
@@ -525,7 +502,7 @@
     gap: 5rem;
     align-items: center;
     justify-content: flex-start;
-    width: 90rem;
+    width: 100%;
     position: absolute;
     left: 0rem;
     top: 200.375rem;
@@ -993,7 +970,7 @@
     gap: 0rem;
     align-items: center;
     justify-content: center;
-    width: 90rem;
+    width: 100%;
     height: 4.5rem;
     position: absolute;
     left: 0rem;
@@ -1015,7 +992,10 @@
 .column3 {
     display: flex;
     flex-direction: row;
-    gap: 0rem;
+    font-family: 'Sunmora-Bold', sans-serif;
+    font-feature-settings: "aalt";
+    font-size: 2.5rem;
+    gap: 1rem;
     align-items: flex-start;
     justify-content: flex-start;
     flex: 1;
