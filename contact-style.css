@@ -118,6 +118,10 @@
   position: relative;
   box-shadow: 0rem 0.25rem 0.25rem 0rem rgba(0, 0, 0, 0.75);
   backdrop-filter: blur(0.625rem);
+  cursor: pointer;
+}
+
+.button:hover {
 }
 
 .button2 {
@@ -131,7 +135,8 @@
 }
 
 .contact-14 {
-  background: #ffc900;
+  background-image: linear-gradient(to bottom right, #ffc900, #ff90e8);
+  /* background: #ffc900; */
   border-style: solid;
   border-color: #000000;
   border-width: 0.25rem 0rem 0rem 0rem;
@@ -158,6 +163,7 @@
   flex-shrink: 0;
   width: 48rem;
   position: relative;
+  margin-left: 4rem;
 }
 
 .subheading {
@@ -178,7 +184,7 @@
   color: var(--black, #000000);
   text-align: left;
   font-family: "MabryPro-Bold", sans-serif;
-  font-size: 3rem;
+  font-size: 3.5rem;
   line-height: 120%;
   font-weight: 700;
   position: relative;
@@ -232,6 +238,7 @@
   align-self: stretch;
   flex-shrink: 0;
   position: relative;
+  margin-left: 4rem;
 }
 
 .icon-email {
@@ -338,6 +345,14 @@
   justify-content: center;
   flex-shrink: 0;
   position: relative;
+  cursor: pointer;
+}
+
+.button3:hover {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 0.0625rem;
+  padding-left: 0.5rem;
 }
 
 .button4 {
@@ -384,6 +399,7 @@
   left: 0rem;
   top: 121.3125rem;
   overflow: hidden;
+  bottom: -2rem;
 }
 
 .content4 {
@@ -399,13 +415,17 @@
 
 .logo {
   display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
+  flex-direction: row;
+  gap: 0rem;
   align-items: flex-start;
   justify-content: flex-start;
   flex: 1;
   position: relative;
-  overflow: hidden;
+  font-family: "Sunmora-Bold", sans-serif;
+  font-feature-settings: "aalt";
+  font-size: 2.75rem;
+  color: white;
+  margin-left: 2rem;
 }
 
 .links {
@@ -581,7 +601,7 @@
   overflow: hidden;
 }
 
-.container {
+.container-class {
   display: flex;
   flex-direction: row;
   gap: 2rem;
@@ -600,6 +620,9 @@
   justify-content: flex-start;
   flex: 1;
   position: relative;
+  font-family: "Sunmora-Bold", sans-serif;
+  font-feature-settings: "aalt";
+  font-size: 2.75rem;
 }
 
 .column3 {
@@ -678,5 +701,10 @@
   position: relative;
   height: 500px;
   width: 500px;
-  box-shadow: 0.25rem 0.25rem 0.25rem 0rem rgba(0, 0, 0, 1.00);
+  box-shadow: 0.25rem 0.25rem 0.25rem 0rem rgba(0, 0, 0, 1);
+  border-radius: 0rem 0.5rem 0.5rem 0rem;
+  border-style: solid;
+  border-color: var(--black, #000000);
+  border-width: 0.125rem;
+  margin-left: 4rem;
 }
