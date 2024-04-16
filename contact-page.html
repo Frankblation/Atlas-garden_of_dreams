@@ -3,15 +3,39 @@
   <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="contact-style.css" />
+    <!-- Link to Bootstrap CSS file -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
   </head>
   <body>
-    <div class="contact-page">
+    <div class="contact-page container-fluid">
+      <header>
+        <nav class="navbar-2 container-fluid">
+          <div class="container-class">
+            <div class="column2">Rue’s Run Farms</div>
+            <div class="column3">
+              <a class="link4" href="home-page.html">Home</a>
+              <a class="link4" href="purchase-page.html">Shop</a>
+              <a class="link4" href="contact-page.html">Contact</a>
+            </div>
+            <div class="column4">
+              <button class="button5">
+                <div class="button2">Login</div>
+              </button>
+            </div>
+          </div>
+        </nav>
+        <!-- <div class="rue-s-run-farms2">Rue’s Run Farms</div> -->
+      </header>
       <div
-        class="header-83"
+        class="header-83 container-fluid"
         style="
           background: url(images/farmer.jpg) center;
           background-size: cover;
           background-repeat: no-repeat;
+          background-position: initial;
         "
       >
         <div class="column">
@@ -28,7 +52,7 @@
           </div>
         </div>
       </div>
-      <div class="contact-14">
+      <div class="contact-14 container-fluid">
         <div class="section-title">
           <div class="subheading"></div>
           <div class="content">
@@ -57,7 +81,7 @@
               <div class="contact-info">
                 <div class="heading3">Email</div>
                 <div class="text3"></div>
-                <div class="link">support@ruesrun.com</div>
+                <a href="#" class="link">support@ruesrun.com</a>
               </div>
             </div>
             <div class="content3">
@@ -77,7 +101,7 @@
               <div class="contact-info">
                 <div class="heading3">Phone</div>
                 <div class="text3"></div>
-                <div class="link">+1 (918) RUE-SRUN</div>
+                <a href="#" class="link">+1 (918) RUE-SRUN</a>
               </div>
             </div>
             <div class="content3">
@@ -123,9 +147,9 @@
           <div id="map"></div>
         </div>
       </div>
-      <div class="footer-4">
+      <div class="footer-4 container-fluid">
         <div class="content4">
-          <div class="logo"></div>
+          <div class="logo">Rue's Run Farms</div>
           <div class="links">
             <a class="link2" href="home-page.html">Home</a>
             <a class="link2" href="purchase-page.html">Shop</a>
@@ -208,52 +232,35 @@
           <div class="row2">
             <div class="text5">2023 Rue’s Run. All right reserved.</div>
             <div class="footer-links">
-              <div class="link3">Privacy Policy</div>
-              <div class="link3">Terms of Service</div>
-              <div class="link3">Cookies Settings</div>
+              <a href="#" class="link3">Privacy Policy</a>
+              <a href="#" class="link3">Terms of Service</a>
+              <a href="#" class="link3">Cookies Settings</a>
             </div>
           </div>
         </div>
       </div>
-      <div class="rue-s-run-farms">Rue’s Run Farms</div>
-      <div class="navbar-2">
-        <div class="container">
-          <div class="column2"></div>
-          <div class="column3">
-            <a class="link4" href="home-page.html">Home</a>
-            <a class="link4" href="purchase-page.html">Shop</a>
-            <a class="link4" href="contact-page.html">Contact</a>
-          </div>
-          <div class="column4">
-            <div class="button5">
-              <div class="button2">Login</div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="rue-s-run-farms2">Rue’s Run Farms</div>
+      <!-- <div class="rue-s-run-farms">Rue’s Run Farms</div> -->
     </div>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBLMziCWrR6Sk0lcIEIXhpEy6gau23GD2E&callback=initMap&libraries=places&v=weekly" async></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBLMziCWrR6Sk0lcIEIXhpEy6gau23GD2E&callback=initMap&libraries=places&v=weekly"
+      async
+    ></script>
     <script>
- 
       // Initialize and add the map
       function initMap() {
+        // The location of Geeksforgeeks office
+        const claremore_center = {
+          lat: 36.3126,
+          lng: -95.61609,
+        };
 
-          // The location of Geeksforgeeks office
-          const claremore_center = {
-              lat: 36.3126,
-              lng: -95.61609
-          };
-
-          // Create the map, centered at gfg_office
-          const map = new google.maps.Map(
-                  document.getElementById("map"), {
-
-              // Set the zoom of the map
-              zoom: 10.56,
-              center: claremore_center,
-          });
+        // Create the map, centered at gfg_office
+        const map = new google.maps.Map(document.getElementById("map"), {
+          // Set the zoom of the map
+          zoom: 10.56,
+          center: claremore_center,
+        });
       }
-  </script>
+    </script>
   </body>
 </html>
