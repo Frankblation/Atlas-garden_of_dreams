@@ -1014,6 +1014,26 @@
   animation:6s rotate infinite linear;
 }
 
+.flower_element-1 {
+  width: 17.374375rem;
+  height: 16.105625rem;
+  position: absolute;
+  left: 69.38rem;
+  top: 262.375rem;
+  transform-origin: 0 0;
+  transform: rotate(7.825deg) scale(1, 1);
+  object-fit: cover;
+  animation: bounce2 2s ease infinite;
+}
+
+@keyframes bounce2 {
+	0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+	40% {transform: translateY(-30px);}
+	60% {transform: translateY(-15px);}
+}
+
+
+
 @keyframes rotate{
   100%{ transform:rotate(1turn) }
 }
