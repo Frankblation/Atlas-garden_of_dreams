@@ -89,7 +89,7 @@
 }
 
 .button {
-  background: #ff90e8 !important;
+  background: #ff90e8;
   border-radius: 0.3125rem 0rem 0rem 0.3125rem;
   border-style: solid;
   border-color: var(--black, #000000);
@@ -103,6 +103,12 @@
   flex-shrink: 0;
   position: relative;
   overflow: hidden;
+  text-decoration: none;
+}
+
+.button:hover {
+    text-decoration: none;
+    background-image: linear-gradient(to bottom left, #ffc900, #ff90e8);
 }
 
 .button2 {
@@ -113,6 +119,7 @@
   line-height: 150%;
   font-weight: 400;
   position: relative;
+  text-decoration: none;
 }
 
 .button3 {
@@ -129,6 +136,12 @@
   justify-content: center;
   flex-shrink: 0;
   position: relative;
+  text-decoration: none;
+}
+
+.button3:hover {
+  text-decoration: none;
+  background-image: linear-gradient(to bottom right, #ffc900, #23a098);
 }
 
 .rue {
@@ -429,6 +442,11 @@
   justify-content: center;
   flex-shrink: 0;
   position: relative;
+  cursor: pointer;
+}
+
+.button4:hover {
+  background-color: #23a094;
 }
 
 .button5 {
@@ -626,6 +644,11 @@
   justify-content: center;
   flex-shrink: 0;
   position: relative;
+  cursor: pointer;
+}
+
+.button8:hover {
+  background: #ff90e8;
 }
 
 .testimonial-13 {
@@ -1051,7 +1074,7 @@
   border-radius: 0.3125rem;
   border-style: solid;
   border-color: var(--black, #000000);
-  border-width: 0.0625rem;
+  border-width: 0.1rem;
   padding: 0.5rem 1.25rem 0.5rem 1.25rem;
   display: flex;
   flex-direction: row;
@@ -1060,6 +1083,11 @@
   justify-content: center;
   flex-shrink: 0;
   position: relative;
+  cursor: pointer;
+}
+
+.button9:hover {
+  background-image: linear-gradient(to bottom right, #ffc900, #ff90e8, #23a098);
 }
 
 .button10 {
