@@ -61,7 +61,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<img src="images/readme_logo.png">
 
 Imagine you’ve been tasked with crafting a digital exhibit for the “Garden of Dreams,” a virtual space devoted to exploring the intricate relationship between nature and the human psyche. This project aims to weave together the realms of botanical beauty and deep-seated emotions, presenting an online sanctuary that delves into the heart of our connection with the natural world.
 
@@ -82,71 +82,29 @@ This is your opportunity to showcase the beauty and depth of the “Garden of Dr
 
 
 
-### Built With
-
-
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Follow this link to get started!
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-### Installation
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/github_username/repo_name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Web browser connected to the internet
 
 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
+Working links in header and footer that allow user to switch webpages to go to the contact section and shop section and then back to home.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
-<!-- ROADMAP -->
-## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
@@ -190,9 +148,9 @@ Project Link: [https://github.com/Frankblation/Atlas-garden_of_dreams](https://g
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* [Frank](frank@hotmail.com)
-* [Matt](matt@gmail.com)
-* [Parker](parker@yahoo.com)
+* [Frank Blation](frank@hotmail.com)
+* [Matt Krozel](matt@gmail.com)
+* [Parker Moore](parker@yahoo.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
