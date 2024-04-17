@@ -1011,6 +1011,11 @@
   transform-origin: 0 0;
   transform: rotate(7.825deg) scale(1, 1);
   object-fit: cover;
+  animation:6s rotate infinite linear;
+}
+
+@keyframes rotate{
+  100%{ transform:rotate(1turn) }
 }
 
 .homepage-nav {
