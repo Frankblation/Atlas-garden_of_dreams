@@ -43,7 +43,7 @@
 
 .content {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   gap: 1.5rem;
   align-items: flex-start;
   justify-content: center;
@@ -54,12 +54,24 @@
 
 .heading {
   color: var(--black, #000000);
-  text-align: left;
+  text-align: center;
   font-family: "MabryPro-Bold", sans-serif;
   font-size: 3.5rem;
   line-height: 120%;
   font-weight: 700;
-  position: absolute;
+  position: absolute; top: -12rem; left: 10rem;
+  align-self: stretch;
+  padding-top: 22rem;
+}
+
+.heading1 {
+  color: var(--black, #000000);
+  text-align: center;
+  font-family: "MabryPro-Bold", sans-serif;
+  font-size: 3.5rem;
+  line-height: 120%;
+  font-weight: 700;
+  position: absolute; bottom: 34rem; right: -12rem;
   align-self: stretch;
   padding-top: 22rem;
 }
@@ -71,8 +83,20 @@
   font-size: 1.125rem;
   line-height: 150%;
   font-weight: 400;
+  position: absolute; top: 19rem; left: 2rem;
+  align-self: center;
+}
+
+.text1 {
+  color: var(--black, #000000);
+  text-align: center;
+  font-family: "MabryPro-Regular", sans-serif;
+  font-size: 1.125rem;
+  line-height: 150%;
+  font-weight: 400;
   position: absolute;
   align-self: center;
+  margin: 0rem 3rem 0rem 3rem;
 }
 
 .actions {
@@ -102,7 +126,7 @@
   justify-content: center;
   flex-shrink: 0;
   position: relative;
-  overflow: hidden;
+  overflow: hidden; left: 17rem; bottom: 8rem;
   text-decoration: none;
 }
 
@@ -135,7 +159,7 @@
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  position: relative;
+  position: relative; left: 17rem; bottom: 8rem;
   text-decoration: none;
 }
 
@@ -621,7 +645,7 @@
   border-width: 0rem 0rem 0rem 0.125rem;
   padding: 0rem 4rem 0rem 5rem;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 1.5rem;
   align-items: flex-start;
   justify-content: center;
@@ -643,7 +667,7 @@
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  position: relative;
+  position: relative; bottom: 15rem;
   cursor: pointer;
 }
 
